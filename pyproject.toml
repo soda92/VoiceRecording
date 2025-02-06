@@ -1,0 +1,16 @@
+[project]
+name = "lenovo_d11_sync"
+version = "0.1.0"
+description = "compress and sync D11 recordings to cloud"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pywin32>=308",
+]
+
+[dependency-groups]
+dev = [
+    "comtypes>=1.4.9",
+    "pyside6>=6.8.2.1",
+    "tqdm>=4.67.1",
+]
