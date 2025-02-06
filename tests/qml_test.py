@@ -1,3 +1,4 @@
+# https://doc.qt.io/qtforpython-6/tutorials/basictutorial/qml.html
 import sys
 from PySide6.QtGui import QGuiApplication
 from PySide6.QtQuick import QQuickView
