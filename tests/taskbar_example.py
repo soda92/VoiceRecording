@@ -1,3 +1,5 @@
+# from: https://github.com/tqdm/tqdm/issues/442
+# also see: https://learn.microsoft.com/en-us/windows/win32/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setprogressstate
 import comtypes.client as cc
 import win32api
 import win32gui
